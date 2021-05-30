@@ -1,0 +1,29 @@
+.nav-container{
+    display: flex;
+   /* background-color: red; */
+    background:#111;
+    height: 25px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0px;
+    z-index: 1;
+    background: linear-gradient(180deg,rgba(0,0,0,1)0%,rgba(49, 48, 48, 0.776));
+    
+ 
+}
+.netflix{
+    width:80px;
+    position: fixed;
+    align-items: center;
+
+}
+.avatar{
+    width:30px;
+    position: fixed;
+    right: 20px;
+    align-items: center;
+
+}
