@@ -35,17 +35,24 @@
 
 }
 @media (max-width:576px){
+    .row{
+        margin-left: 04px;
+       
+    
+    }
     .poster{
         cursor: pointer;
-        max-height: 150px;
+        max-height: 140px;
         margin-right: 10px;
+        outline: none;
+        
       
     
     }
     .smallPoster{
         cursor: pointer;
     
-        max-height: 90px;
+        max-height: 80px;
         margin-right: 10px;
     
     }
