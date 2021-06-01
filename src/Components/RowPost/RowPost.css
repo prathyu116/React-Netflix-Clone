@@ -34,3 +34,21 @@
     transform: scale(1.1);
 
 }
+@media (max-width:576px){
+    .poster{
+        cursor: pointer;
+        max-height: 150px;
+        margin-right: 10px;
+      
+    
+    }
+    .smallPoster{
+        cursor: pointer;
+    
+        max-height: 90px;
+        margin-right: 10px;
+    
+    }
+    
+    
+    }
