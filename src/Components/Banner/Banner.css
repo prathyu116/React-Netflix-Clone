@@ -14,20 +14,33 @@
     .banner{
         
      
-       
+      
        width: 100%;
-       background-size: contain;
+       height: 70%;
+       background-size: cover;
        background-repeat: no-repeat;
        
 
+    }
+    .discription{
+   
+       
+        width: 45rem;
+        line-height: 1.2;
+        padding-top: 1rem;
+        font-size: 10px;
+        max-height: 80px;
+        width: 360px;
+    
     }
     
     
 }
 .content{
     padding-top: 250px;
-    height:200px;
+    height:250px;
     padding-left: 15px;
+    /* overflow: hidden; */
 
 }
 .movie-title{
@@ -78,11 +91,13 @@
 }
 @media (max-width:576px){
     .content{
-        padding-top: 70px;
-        height:70px;
-        padding-left: 6px;
+        padding-top: 150px;
+        height:150px;
+        padding-left: 15px;
+        /* overflow: hidden; */
     
     }
+    
     .movie-title{
         font-weight: 300px;
         font-size: 1.2rem;
@@ -104,4 +119,5 @@
        
     
     }
+    
 }
