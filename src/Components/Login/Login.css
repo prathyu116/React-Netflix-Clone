@@ -47,7 +47,9 @@
 .link-button{
     background-color: #e50914;
     padding: 10px 10px;
-    font-size: 2.5rem;
+    width:300px;
+    font-size: 30px;
+   
     text-align: center;
     border: none;
     cursor: pointer;

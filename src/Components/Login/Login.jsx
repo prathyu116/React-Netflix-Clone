@@ -1,10 +1,22 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Login.css'
-import {Link} from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
+import {SpinnerRoundOutlined} from 'react-spinners'
 
 const Login = () => {
-    return (
+    const [isLoading,setIsLoading]=useState(false)
+    
+    
+    return isLoading ?(
+        // <SpinnerRoundOutlined size={90} thickness={176} speed={126} color="rgba(57, 172, 166, 1)" />
+        <h1 style={{backgroundColor:'red'}}>Loassssssssss</h1>
+
+    )
+    
+        
+    :
+    
+    (
         <div>
          <div className="header">
             <NavBar />
@@ -15,7 +27,8 @@ const Login = () => {
             <h1>Unlimited movies, TV shows and more.</h1>
             <h3>All of Netflix, starting at just ₹ 199.</h3>
             <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <Link className="link-button" to='/netflix'>Get Started</Link>
+            {/* <Link className="link-button" to='/netflix'>Get Started</Link> */}
+            <a onClick={()=>setIsLoading(true)} className="link-button" href="/netflix">SignIn</a>
            
         </div>
 
