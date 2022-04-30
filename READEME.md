@@ -8,7 +8,7 @@ user can able to play trailer of the movie
 A solo project completed with in 2 days.
 responsive ui
 # Layout of the project
-![1](https://myportfolio-rouge.vercel.app/static/media/netflix.8168c84b.gif)
+- <img src="https://www.linkpicture.com/q/netflix.jpg"></img>
 
 
 
